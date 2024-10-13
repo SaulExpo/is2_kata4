@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación del programa en mal estado">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TitleDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TitleReader.java" afterDir="false" />
+    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación de las interfaces y de la clase TsvTitleReader">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TsvTitleDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TsvTitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TsvTitleReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +67,20 @@
       <option name="project" value="LOCAL" />
       <updated>1728838555857</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creación de las interfaces y de la clase TsvTitleReader">
+      <option name="closed" value="true" />
+      <created>1728839520624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728839520624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creación del programa en mal estado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación del programa en mal estado" />
+    <MESSAGE value="Creación de las interfaces y de la clase TsvTitleReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de las interfaces y de la clase TsvTitleReader" />
   </component>
 </project>

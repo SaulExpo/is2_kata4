@@ -24,8 +24,7 @@ public class TsvTitleReader implements TitleReader{
         while (true){
             String l = reader.readLine();
             if (l == null) break;
-            String[] columns = l.split("\t");
-            titles.add(new Title(columns[0], Title.TitleType.valueOf(columns[0].toUpperCase()), columns[1]));
+            titles.add(new TsvTitleDeserializer().deserialize(l));
         }
         return titles;
     }
