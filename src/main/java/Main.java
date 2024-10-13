@@ -10,15 +10,7 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) throws IOException {
         File file = new File("./title.basics.tsv");
-        BufferedReader reader = new BufferedReader(new FileReader(file));
-        reader.readLine();
-        List<Title> titles = new ArrayList<>();
-        while (true){
-            String l = reader.readLine();
-            if (l == null) break;
-            String[] columns = l.split("\t");
-            titles.add(new Title(columns[0], Title.TitleType.valueOf(columns[0].toUpperCase()), columns[1]));
-        }
+
         Map<Title.TitleType, Integer> histogram = new HashMap<>();
         titles.forEach(t->{
             histogram.putIfAbsent(t.titleType(), 0);
