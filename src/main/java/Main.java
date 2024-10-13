@@ -9,15 +9,20 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file = new File("./title.basics.tsv");
+        TitleReader reader = new TsvTitleReader(new File("./title.basics.tsv"));
+        List<Title> titles = reader.read();
+        Map<Title.TitleType, Integer> histogram = createHistogram(titles);
+        for (Title.TitleType type :histogram.keySet()){
+            System.out.println(type + ": " + histogram.get(type));
+        }
+    }
 
+    private static Map<Title.TitleType, Integer> createHistogram(List<Title> titles) {
         Map<Title.TitleType, Integer> histogram = new HashMap<>();
         titles.forEach(t->{
             histogram.putIfAbsent(t.titleType(), 0);
             histogram.compute(t.titleType(), (tt, i)->i+1);
         });
-        for (Title.TitleType type :histogram.keySet()){
-            System.out.println(type + ": " + histogram.get(type));
-        }
+        return histogram;
     }
 }
