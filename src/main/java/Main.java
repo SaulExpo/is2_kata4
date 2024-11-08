@@ -16,13 +16,4 @@ public class Main {
             System.out.println(type + ": " + histogram.get(type));
         }
     }
-
-    private static Map<Title.TitleType, Integer> createHistogram(List<Title> titles) {
-        Map<Title.TitleType, Integer> histogram = new HashMap<>();
-        titles.forEach(t->{
-            histogram.putIfAbsent(t.titleType(), 0);
-            histogram.compute(t.titleType(), (tt, i)->i+1);
-        });
-        return histogram;
-    }
 }
