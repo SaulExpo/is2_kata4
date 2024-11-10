@@ -1,3 +1,7 @@
+package control;
+
+import model.Title;
+
 import java.time.Year;
 import java.util.ArrayList;
 import java.util.List;

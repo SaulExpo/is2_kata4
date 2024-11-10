@@ -1,3 +1,8 @@
+package control;
+
+import model.Histogram;
+import model.Title;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +30,7 @@ public class TitleTypeHistogram implements Histogram {
 
     @Override
     public String title() {
-        return "model.model.Title Types";
+        return "model.model.model.Title Types";
     }
 
     private static Map<Title.TitleType, Integer> createHistogram(List<Title> read) {

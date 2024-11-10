@@ -1,3 +1,7 @@
+package view;
+
+import model.Histogram;
+
 import javax.swing.*;
 
 public class MainFrame extends JFrame {
@@ -5,7 +9,7 @@ public class MainFrame extends JFrame {
     HistogramDisplay display;
 
     public MainFrame(){
-        this.setTitle("model.model.Histogram Display");
+        this.setTitle("model.model.model.Histogram Display");
         this.setSize(1800, 1600);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);

@@ -1,3 +1,9 @@
+import control.TitleReader;
+import control.TitleTypeHistogram;
+import control.TsvTitleReader;
+import model.Histogram;
+import view.MainFrame;
+
 import java.io.File;
 import java.io.IOException;
 
