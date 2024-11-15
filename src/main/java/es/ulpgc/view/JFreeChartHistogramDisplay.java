@@ -1,6 +1,6 @@
-package view;
+package es.ulpgc.view;
 
-import model.Histogram;
+import es.ulpgc.model.Histogram;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;

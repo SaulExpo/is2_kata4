@@ -1,4 +1,4 @@
-package model;
+package es.ulpgc.model;
 
 import java.time.Year;
 import java.util.List;

@@ -1,7 +1,7 @@
-package control;
+package es.ulpgc.control;
 
-import model.Histogram;
-import model.Title;
+import es.ulpgc.model.Histogram;
+import es.ulpgc.model.Title;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,7 +30,7 @@ public class TitleTypeHistogram implements Histogram {
 
     @Override
     public String title() {
-        return "model.model.model.Title Types";
+        return "es.ulpgc.model.Title Types";
     }
 
     private static Map<Title.TitleType, Integer> createHistogram(List<Title> read) {

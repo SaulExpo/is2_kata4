@@ -1,6 +1,6 @@
-package view;
+package es.ulpgc.view;
 
-import model.Histogram;
+import es.ulpgc.model.Histogram;
 
 public interface HistogramDisplay {
     void display (Histogram histogram);

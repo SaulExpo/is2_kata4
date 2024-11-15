@@ -1,6 +1,6 @@
-package control;
+package es.ulpgc.control;
 
-import model.Title;
+import es.ulpgc.model.Title;
 
 public interface TitleDeserializer {
     Title deserialize(String value);

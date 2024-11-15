@@ -1,6 +1,6 @@
-package control;
+package es.ulpgc.control;
 
-import model.Title;
+import es.ulpgc.model.Title;
 
 import java.time.Year;
 import java.util.ArrayList;
