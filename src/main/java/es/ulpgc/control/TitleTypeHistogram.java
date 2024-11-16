@@ -3,16 +3,14 @@ package es.ulpgc.control;
 import es.ulpgc.model.Histogram;
 import es.ulpgc.model.Title;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.IOException;
+import java.util.*;
 
 public class TitleTypeHistogram implements Histogram {
     private final Map<Title.TitleType, Integer> histogram;
 
-    public TitleTypeHistogram(List<Title> titles) {
-        histogram = createHistogram(titles);
+    public TitleTypeHistogram(TitleReader reader) throws IOException {
+        histogram = createHistogram(reader);
     }
 
     @Override
@@ -33,12 +31,14 @@ public class TitleTypeHistogram implements Histogram {
         return "es.ulpgc.model.Title Types";
     }
 
-    private static Map<Title.TitleType, Integer> createHistogram(List<Title> read) {
+    private static Map<Title.TitleType, Integer> createHistogram(TitleReader titles) throws IOException {
         Map<Title.TitleType, Integer> histogram = new HashMap<>();
-        read.forEach(t -> {
+        Iterator<Title> titleIterator = titles.read();
+        while (titleIterator.hasNext()){
+            var t = titleIterator.next();
             histogram.putIfAbsent(t.titleType(), 0);
             histogram.compute(t.titleType(), (tt, i) -> i + 1);
-        });
+        }
         return histogram;
     }
 }
