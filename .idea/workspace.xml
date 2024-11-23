@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación de las clases de la vista dedicadas para incluir la película aleatoria">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/persistance/RandomTitleLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/persistance/SQLiteRandomTItleLoader.java" afterDir="false" />
-    </list>
+    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación de las 2 clases de persistencia para poder obtener una película aleatoria por medio de una sentencia SQL" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732363081862</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Creación de las 2 clases de persistencia para poder obtener una película aleatoria por medio de una sentencia SQL">
+      <option name="closed" value="true" />
+      <created>1732363426430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732363426430</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +216,7 @@
     <MESSAGE value="Creación y finalización de la clase SQLiteTitleReader" />
     <MESSAGE value="Finalización del proyecto comprobando que todo funciona a falta del reto añadido" />
     <MESSAGE value="Creación de las clases de la vista dedicadas para incluir la película aleatoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de las clases de la vista dedicadas para incluir la película aleatoria" />
+    <MESSAGE value="Creación de las 2 clases de persistencia para poder obtener una película aleatoria por medio de una sentencia SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de las 2 clases de persistencia para poder obtener una película aleatoria por medio de una sentencia SQL" />
   </component>
 </project>
