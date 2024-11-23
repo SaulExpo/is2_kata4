@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación y finalización de la clase SQLiteTitleReader">
+    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Finalización del proyecto comprobando que todo funciona a falta del reto añadido">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/view/JFreeChartTitleDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/view/TitleDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/model/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/model/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Cosas de Saúl/Universidad/3Año/IS2/Cosa rara - copia/kata4",
-    "settings.editor.selected.configurable": "configurable.group.language"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/Cosas de Saúl/Universidad/3Año/IS2/Cosa rara - copia/kata4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="es.ulpgc" />
@@ -171,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731758980559</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finalización del proyecto comprobando que todo funciona a falta del reto añadido">
+      <option name="closed" value="true" />
+      <created>1732361758460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732361758460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +202,7 @@
     <MESSAGE value="Commit de la creación de la clase SQLtitleWriter" />
     <MESSAGE value="Creación de la clase TitleLoader" />
     <MESSAGE value="Creación y finalización de la clase SQLiteTitleReader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación y finalización de la clase SQLiteTitleReader" />
+    <MESSAGE value="Finalización del proyecto comprobando que todo funciona a falta del reto añadido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalización del proyecto comprobando que todo funciona a falta del reto añadido" />
   </component>
 </project>
