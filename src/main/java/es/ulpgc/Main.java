@@ -16,6 +16,11 @@ public class Main {
         MainFrame mainFrame = new MainFrame();
         Histogram histogram = new TitleTypeHistogram(new SQLiteTitleReader(dbFile));
         mainFrame.displayhistogram(histogram);
+        Command randomCommand = new SQLiteRandomCommand(
+                mainFrame.titleDisplay(),
+                dbFile
+        );
+        mainFrame.add("random", randomCommand);
         mainFrame.setVisible(true);
     }
 }
