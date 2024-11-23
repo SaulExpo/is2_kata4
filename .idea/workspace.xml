@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Finalización del proyecto comprobando que todo funciona a falta del reto añadido">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/view/JFreeChartTitleDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/view/TitleDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación de las clases de la vista dedicadas para incluir la película aleatoria">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/persistance/RandomTitleLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/persistance/SQLiteRandomTItleLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732361758460</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creación de las clases de la vista dedicadas para incluir la película aleatoria">
+      <option name="closed" value="true" />
+      <created>1732363081862</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732363081862</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +210,7 @@
     <MESSAGE value="Creación de la clase TitleLoader" />
     <MESSAGE value="Creación y finalización de la clase SQLiteTitleReader" />
     <MESSAGE value="Finalización del proyecto comprobando que todo funciona a falta del reto añadido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalización del proyecto comprobando que todo funciona a falta del reto añadido" />
+    <MESSAGE value="Creación de las clases de la vista dedicadas para incluir la película aleatoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de las clases de la vista dedicadas para incluir la película aleatoria" />
   </component>
 </project>

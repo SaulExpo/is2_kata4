@@ -64,7 +64,7 @@ public class SQLiteTitleReader implements TitleReader {
         return DriverManager.getConnection("jdbc:sqlite:" + dbFile.getAbsolutePath());
     }
 
-    public List<Title.Genres> getGenres(String s){
+    public static List<Title.Genres> getGenres(String s){
         s = s.replace("[", "");
         s = s.replace("]", "");
         s = s.replace(" ", "");
