@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación de la clase TitleLoader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleReader.java" afterDir="false" />
+    <list default="true" id="b499141e-8a5a-4f07-9d33-8b8e14029b95" name="Changes" comment="Creación y finalización de la clase SQLiteTitleReader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleTypeHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleTypeHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/SQLiteTitleWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/control/TitleLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/model/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/model/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Usuario/Desktop/Cosas de Saúl/Universidad/3Año/IS2/Cosa rara/kata4",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/Cosas de Saúl/Universidad/3Año/IS2/Cosa rara - copia/kata4",
     "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
@@ -62,19 +64,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ulpgc.Main" />
       <module name="kata4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="kata4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="kata4" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731756938590</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Creación y finalización de la clase SQLiteTitleReader">
+      <option name="closed" value="true" />
+      <created>1731758980559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731758980559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +196,7 @@
     <MESSAGE value="Cambiar a Iterador la lista de titulos y cambiar la clase TsvTitleReader" />
     <MESSAGE value="Commit de la creación de la clase SQLtitleWriter" />
     <MESSAGE value="Creación de la clase TitleLoader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creación de la clase TitleLoader" />
+    <MESSAGE value="Creación y finalización de la clase SQLiteTitleReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación y finalización de la clase SQLiteTitleReader" />
   </component>
 </project>

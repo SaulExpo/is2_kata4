@@ -17,10 +17,14 @@ public class SQLiteTitleWriter implements TitleWriter{
             isAdult BOOLEAN NOT NULL,
             startYear YEAR,
             endYear YEAR,
-            runtimeMinutes INT,
+            runtimeMinutes INTEGER,
             genres TEXT)
             """;
-    private final String insertSQL = "INSERT INTO titles(id, type, primaryTitle, originalTitle, isAdult, startYear, endYEar, runtimeMinutes, genres) " +
+
+    private static final String deleteTable = """
+            DELETE FROM titles
+            """;
+    private final String insertSQL = "INSERT INTO titles(id, type, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genres) " +
             "VALUES(?,?,?,?,?,?,?,?,?)";
     private PreparedStatement insertStatement;
 
@@ -32,10 +36,11 @@ public class SQLiteTitleWriter implements TitleWriter{
             insertStatement.setString(3, title.primaryTitle());
             insertStatement.setString(4, title.originalTitle());
             insertStatement.setBoolean(5, title.isAdult());
-            insertStatement.setInt(6, title.startYear().getValue());
-            insertStatement.setInt(7, title.endYear().getValue());
-            insertStatement.setInt(8, title.runtimeMinutes());
-            insertStatement.setString(9, title.genres().toString());
+            if (title.startYear() != null)insertStatement.setInt(6, title.startYear().getValue());
+            if (title.endYear() != null) insertStatement.setInt(7, title.endYear().getValue());
+            if (title.runtimeMinutes() != null) insertStatement.setInt(8, title.runtimeMinutes());
+            if (title.genres() != null) insertStatement.setString(9, title.genres().toString());
+            insertStatement.execute();
         } catch (SQLException e) {
             throw new IOException(e);
         }
@@ -59,8 +64,18 @@ public class SQLiteTitleWriter implements TitleWriter{
         try {
             Statement statement = connection.createStatement();
             statement.execute(createTable);
+            statement.execute(deleteTable);
             connection.setAutoCommit(false);
             insertStatement = connection.prepareStatement(this.insertSQL);
+        } catch (SQLException e) {
+            throw new IOException(e);
+        }
+    }
+
+    public void closeConnection() throws IOException {
+        try {
+            connection.commit();
+            connection.close();
         } catch (SQLException e) {
             throw new IOException(e);
         }

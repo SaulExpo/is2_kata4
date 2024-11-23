@@ -15,5 +15,6 @@ public class TitleLoader {
         while (titles.hasNext()){
             dbWriter.write(titles.next());
         }
+        dbWriter.closeConnection();
     }
 }

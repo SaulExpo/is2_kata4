@@ -50,4 +50,5 @@ public record Title(String id, Title.TitleType titleType, String primaryTitle, S
         War,
         Western
     }
+
 }
